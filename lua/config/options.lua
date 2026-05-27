@@ -5,4 +5,3 @@
 vim.opt.relativenumber = true -- Relative line numbers
 vim.opt.scrolloff = 8 -- Keep 8 lines visible above/below cursor
 vim.opt.wrap = false
-vim.opt.conceallevel = 1 -- Conceal markup for obsidian.nvim UI
