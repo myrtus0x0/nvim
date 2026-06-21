@@ -1,12 +1,4 @@
 return {
-  -- add gruvbox
+  -- keep gruvbox installed (switch with :colorscheme gruvbox); active scheme is set in spacemacs.lua
   { "ellisonleao/gruvbox.nvim" },
-
-  -- Configure LazyVim to load gruvbox
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "gruvbox",
-    },
-  },
 }
